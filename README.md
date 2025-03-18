@@ -146,3 +146,8 @@ wOBA大約0.325上下，對勝率的影響出現顯著變化。
 
 # 討論:  
 
+最後，我會針對我目前遇到的問題做說明: 
+
+如下圖所示，  
+
+![OPS](https://github.com/user-attachments/assets/8c76624c-52b0-4ef2-8030-7b17ccbe56fe) 
