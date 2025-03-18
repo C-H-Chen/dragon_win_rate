@@ -11,6 +11,8 @@
 
 發現"1998味全龍"多個球隊相關的數值出現異常值，但本研究決定以2010-24年的數據進行研究，故不影響。  
 
+###### <h4> 基於10年代以前的數據有一些場外人為操控的因素，再加上成本考量，最終選擇以2010-24年的數據進行研究。
+
 # 資料探索(EDA): 
 
 此步驟主要使用三種技術: 
@@ -33,7 +35,7 @@
 
 ###### <h4>投球: 'FIP', 'ERA', 'BABIP', 'BB%', 'WHIP'  
 
-###### <h4>打擊: 'OPS', 'OBP', 'ISO', 'K%', 'wOBA  
+###### <h4>打擊: 'OPS', 'OBP', 'ISO', 'K%', 'wOBA'  
 
 ###### <h4>守備: 'Defense%'  
 
@@ -79,7 +81,35 @@
 
 R²: 0.7051。說明能解釋 70.51% 的變異，表明模型有相對較好的預測能力。但仍有約 30% 的變異無法被模型解釋，表示可能還有些其他因素或特徵未被納入模型。
 
-# 成果分析:
+# 成果分析:  
+###### <h4>邊際效應分析:  
 
+目的是為了量化每個特徵對勝率預測的邊際影響，即當特徵的值改變時，勝率的預測值如何變化，從而實現球員篩選標準的設定。  
+
+下圖是未發現顯著變化的特徵，依序為'FIP', 'ERA', 'BABIP', 'BB%', 'WHIP', 'OBP', 'K%', 'Defense%' :  
+
+![FIP](https://github.com/user-attachments/assets/716c0370-35b0-474c-bbc4-8b61918533c3)  
+
+![ERA](https://github.com/user-attachments/assets/a5cc8c93-b0bb-4d4d-91be-053cd0eb6a75)  
+
+![BABIP](https://github.com/user-attachments/assets/4ab9067d-a565-4274-bc7b-15c7bce0467f)  
+
+![BB%](https://github.com/user-attachments/assets/5ad9d839-44e8-462e-b038-1ff9377a6b12)  
+
+![WHIP](https://github.com/user-attachments/assets/b31c4e20-870c-413b-8e23-f97f44015eb7)  
+
+![OBP](https://github.com/user-attachments/assets/45b340c0-dc8e-4145-8c68-7af69a65e8e9)  
+
+![K%](https://github.com/user-attachments/assets/9bb78c04-9cae-47ea-afdc-e3be1b2c71f3)  
+
+![DEFENSE%](https://github.com/user-attachments/assets/2c805c10-f291-403c-99bf-54a284ecb8d7)  
+
+下圖是發現有顯著變化的特徵，依序為'OPS', 'ISO', 'wOBA' :  
+
+![OPS](https://github.com/user-attachments/assets/8c76624c-52b0-4ef2-8030-7b17ccbe56fe)  
+
+![ISO](https://github.com/user-attachments/assets/ebc31039-6411-4828-be94-8b30027810d0)  
+
+![wOBA](https://github.com/user-attachments/assets/9e6497ab-b9aa-4777-a5c3-9d6a130735d5)  
 
 
