@@ -148,6 +148,8 @@ wOBA大約0.325上下，對勝率的影響出現顯著變化。
 
 最後，我會針對我目前遇到的問題做說明: 
 
-如下圖所示，  
+如下圖所示，你會發現OPS越高，勝率反而越低，完全不符合實際情況。相同的現象也同時發生在了WHIP, K%, ISO, wOBA。
 
-![OPS](https://github.com/user-attachments/assets/8c76624c-52b0-4ef2-8030-7b17ccbe56fe) 
+![OPS](https://github.com/user-attachments/assets/8c76624c-52b0-4ef2-8030-7b17ccbe56fe)  
+
+
