@@ -95,11 +95,11 @@ ElasticNet則專注處理線性關係，並針對特徵之間的高度相關解�
 
 透過此方式評估模型的表現。下圖皆為模型評估的結果。  
 
-![結果1](https://github.com/user-attachments/assets/bffb6612-024d-45d5-ab8f-25d030c7ea4b)  
-
 ![實際vs預測勝率](https://github.com/user-attachments/assets/8a34a003-48a0-4327-9385-f3b31800b100)  
 
-![結果2](https://github.com/user-attachments/assets/b53d05b5-57be-4e18-8772-18ec08e45804)
+![結果1](https://github.com/user-attachments/assets/bffb6612-024d-45d5-ab8f-25d030c7ea4b)  
+
+![結果2](https://github.com/user-attachments/assets/b53d05b5-57be-4e18-8772-18ec08e45804)  
 
 ###### <h4>均方誤差（Negative MSE）:  
 
